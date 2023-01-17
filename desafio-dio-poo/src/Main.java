@@ -36,10 +36,12 @@ public class Main {
 
         Dev dev = new Dev();
         dev.setNome("Maria");
+        dev.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos inscritos:" + dev.getConteudosInscritos());
 
         Dev dev1 = new Dev();
         dev1.setNome("João");
+        dev1.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos inscritos:" + dev1.getConteudosInscritos());
     }
 }
